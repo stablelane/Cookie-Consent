@@ -1,0 +1,119 @@
+html {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100dvh;
+    margin: 0;
+    position: relative;
+}
+
+.container {
+    min-width: 600px;
+    max-width: 710px;
+    width: 80%;
+    height: 40vh;
+    border: 3px solid black;
+    border-radius: 15px;
+    margin: auto;
+    font-family: "Roboto", sans-serif;
+    padding: 1em;
+    z-index: 0;
+    position: relative;
+}
+
+h2,
+p {
+    margin: 0;
+}
+
+.tabs {
+    display: flex;
+    gap: 2em;
+}
+
+.tab-item {
+    cursor: pointer;
+}
+
+.tabs h2 {
+    font-weight: 400;
+    font-size: 1.3em;
+    margin: 0 0.6em;
+    margin-bottom: 0.2em;
+}
+
+.tab-border {
+    border-bottom: 3px solid black;
+}
+
+.tab-content {
+    padding: 2em 1em;
+
+}
+
+.tab-content .box {
+    color: #f2f2f2;
+    background-color: #222222;
+    padding: 3em 7.5em;
+    border-radius: 10px;
+    margin: 1em 0;
+}
+
+.tab-content p {
+    font-size: 1.2rem;
+}
+
+.tab-content-item {
+    display: none;
+}
+
+
+.cookie-modal {
+    display: none;
+    background-color: #222222;
+    color: #f2f2f2;
+    position: absolute;
+    bottom: 1em;
+    right: 1em;
+    padding: 1em;
+    width: 11em;
+    height: 13.5em;
+    border-radius: 0.8em;
+}
+
+.cookie-modal img {
+    width: 2em;
+    transform: scaleX(-1);
+    margin-bottom: 3.3em;
+}
+
+.cookie-modal p {
+    font-size: 0.9em;
+    margin-bottom: 0.8em;
+}
+
+.cookie-modal button {
+    width: 100%;
+    padding: 0.5em 0;
+    border-radius: 6px;
+    border: none;
+    font-weight: 500;
+}
+#modal-close-btn {
+    position: absolute;
+    top: 0.8em;
+    right: 1em;
+    font-size: 1em;
+    cursor: pointer;
+}
+.show {
+    display: block;
+}
