@@ -4,7 +4,7 @@
 
 ## Overview
 
-The Cookie Consent Banner is a project featured on [roadmap.sh](https://roadmap.sh/projects/cookie-consent). It allows website owners to inform users about cookie usage and obtain consent in a user-friendly manner.
+The Cookie Consent Banner is a project featured on [roadmap.sh](https://roadmap.sh/projects/cookie-consent).
 
 ## Learn More
 
